@@ -19,10 +19,6 @@ $(document).ready(function () {
             const row = $('<tr>');
             row.append($('<td>').text(character.firstName));
             row.append($('<td>').text(character.lastName));
-            const imageCell = $('<td>');
-            const image = $('<img>').attr('src', character.image).attr('alt', `${character.firstName} ${character.lastName}`);
-            imageCell.append(image);
-            row.append(imageCell);
             row.append($('<td>').text(character.info));
             tbody.append(row);
         });
