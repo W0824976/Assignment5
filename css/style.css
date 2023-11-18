@@ -1,0 +1,38 @@
+body {
+background-color: aquamarine;
+}
+
+.search-container {
+    margin: 15px;
+}
+
+#characters-table {
+    border-collapse: collapse;
+    width: 58%;
+    margin: 10px;
+}
+
+#characters-table th, #characters-table td {
+    border: 3px solid #2e0b73;
+    padding: 3px;
+    text-align: left;
+}
+
+#characters-table th {
+    background-color: #146302;
+}
+
+#characters-table .highlighted {
+    background-color: darkgreen;
+    color: white;
+}
+
+.filter-buttons {
+    margin: 20px;
+}
+
+.filter-buttons button {
+    margin-right: 15px;
+    padding: 5px;
+    cursor: pointer;
+}

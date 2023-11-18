@@ -1,46 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<title>Welcome to E Corp.</title>
-	<link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-	<section id="container">
-		<header></header>
+    <h1>Gurpreet Singh- Vampire Diaries</h1>
+    <div class="search-container">
+        <label for="search">Search by First Name:</label>
+        <input type="text" id="search" placeholder="Enter first name">
+    </div>
 
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="aboutus.html">About Us</a></li>
-				<li><a href="solutions.html">Solutions</a></li>
-				<li><a href="support.html">Support</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
-			</ul>
-		</nav>
+    <table id="characters-table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Other Information</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 
-		<section id="content">
-			<h2>THEME TITLE HERE</h2>
+    <div class="filter-buttons">
+        <button id="filter-a-m">A - M (0)</button>
+        <button id="filter-n-z">N - Z (0)</button>
+    </div>
 
-			<div id="content-item-list">
-				<!-- sample of what your toString should output
-					<div id="content-item-0">
-						<h4>name here</h4>
-						<p>description here</p>
-						<div>category genre here</div>
-					</div>
-				-->
-			</div>
-		</section>
-
-		<footer></footer>
-	</section>
-
-	<script src="jquery.js"></script>
-	<script src="script.js"></script>
-	
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
-
